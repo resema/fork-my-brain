@@ -1,0 +1,159 @@
+{
+  "main": {
+    "id": "cdfa6085b282a992",
+    "type": "split",
+    "children": [
+      {
+        "id": "5669b220106f8b1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ca3cbafe8ac0155",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git/useful git cmds.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7c6ff18db4f5c51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git/create a remote repo from local repo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2ccdb33a9af42eb0",
+    "type": "split",
+    "children": [
+      {
+        "id": "52074eb0a09aecba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "229cbc30eb4f56c9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "034f47741a3c869f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#flutter",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a6dee871cc24a8de",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 214.5
+  },
+  "right": {
+    "id": "c3ddd96f71d12e0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a9276ceda252580",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2846479174f3e4eb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "git/create a remote repo from local repo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a94388b5325ef89d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a036f7451a8bc519",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "git/create a remote repo from local repo.md"
+              }
+            }
+          },
+          {
+            "id": "d007f07de3fa5152",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "d7c6ff18db4f5c51",
+  "lastOpenFiles": [
+    "git/useful git cmds.md",
+    "my-daily-work-techstack.md",
+    "git/without losing the changes.md",
+    "git/discard the changes.md",
+    "google/Cloud Firestore.md",
+    "flutter/material.dart.md",
+    "2022-10-16.md",
+    "flutter/Dart's single return expression.md",
+    "flutter/Dart.md",
+    "flutter/flutter-dart.md"
+  ]
+}

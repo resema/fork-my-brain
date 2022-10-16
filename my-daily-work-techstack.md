@@ -1,0 +1,2 @@
+- to handle my repos I use git and there are some [[useful git cmds]]
+- building frontends with [[flutter-dart]]

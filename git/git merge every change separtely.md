@@ -1,0 +1,3 @@
+```sh
+git merge -p
+```
