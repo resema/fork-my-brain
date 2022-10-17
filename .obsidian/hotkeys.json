@@ -98,15 +98,7 @@
       "key": "S"
     }
   ],
-  "graph:open-local": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "G"
-    }
-  ],
+  "graph:open-local": [],
   "editor:insert-tag": [
     {
       "modifiers": [
@@ -148,6 +140,23 @@
         "Mod"
       ],
       "key": "A"
+    }
+  ],
+  "graph:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "G"
+    }
+  ],
+  "juggl:open-vis-global": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
     }
   ]
 }

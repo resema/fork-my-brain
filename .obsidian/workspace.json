@@ -4,76 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "96086b412bdeb231",
+        "id": "c924411235a767cc",
         "type": "tabs",
         "children": [
           {
-            "id": "0585b86fa8358892",
+            "id": "8874f66781c598f1",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "google/API.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e59b3fef31ce577",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "questions/swagger.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da38ed711784c74b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "google/gRPC.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "72e34b481503b468",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "questions/swagger.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4436b4d2881e4faf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DS/questions/subscribe-patient-service.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "juggl_view",
+              "state": {},
+              "pinned": true
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,9 +94,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DS/questions/subscribe-patient-service.md"
-              }
+              "state": {}
             }
           },
           {
@@ -161,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DS/questions/subscribe-patient-service.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -179,9 +120,25 @@
               "type": "graph-analysis",
               "state": {}
             }
+          },
+          {
+            "id": "3e5f620382115b60",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "ce5a75f79480a5bb",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "3b8ef73b86433d5d",
@@ -194,7 +151,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DS/questions/subscribe-patient-service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,17 +160,17 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5
+    "width": 260.5
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "4436b4d2881e4faf",
+  "active": "8874f66781c598f1",
   "lastOpenFiles": [
-    "DS/tasks/tasks-without-patient.md",
-    "DS/questions/subscribe-patient-service.md",
-    "questions/swagger.md",
     "questions/FHIR and DICOM.md",
+    "questions/swagger.md",
+    "DS/questions/subscribe-patient-service.md",
+    "DS/tasks/tasks-without-patient.md",
     "questions/work-with-tests-in-flutter.md",
     "techstack/REST.md",
     "techstack/HTTP.md",
