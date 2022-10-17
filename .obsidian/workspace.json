@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c924411235a767cc",
+        "id": "2a020f938a3ffb4f",
         "type": "tabs",
         "children": [
           {
-            "id": "8874f66781c598f1",
+            "id": "b4b3c6f0a3273a95",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "juggl_view",
-              "state": {},
-              "pinned": true
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -120,25 +118,9 @@
               "type": "graph-analysis",
               "state": {}
             }
-          },
-          {
-            "id": "3e5f620382115b60",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "ce5a75f79480a5bb",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       },
       {
         "id": "3b8ef73b86433d5d",
@@ -165,7 +147,7 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "8874f66781c598f1",
+  "active": "b4b3c6f0a3273a95",
   "lastOpenFiles": [
     "questions/FHIR and DICOM.md",
     "questions/swagger.md",

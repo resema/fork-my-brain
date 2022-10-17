@@ -145,18 +145,10 @@
   "graph:open": [
     {
       "modifiers": [
-        "Alt",
-        "Shift"
+        "Mod"
       ],
       "key": "G"
     }
   ],
-  "juggl:open-vis-global": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "G"
-    }
-  ]
+  "juggl:open-vis-global": []
 }
