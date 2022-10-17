@@ -1,4 +1,5 @@
 #git #root
+
 - [[brings the remote and local repository in the same state]]
 - [[git add every change separately]]
 - [[git merge every change separtely]]

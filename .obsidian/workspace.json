@@ -4,31 +4,76 @@
     "type": "split",
     "children": [
       {
-        "id": "5669b220106f8b1a",
+        "id": "96086b412bdeb231",
         "type": "tabs",
         "children": [
           {
-            "id": "0ca3cbafe8ac0155",
+            "id": "0585b86fa8358892",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/useful-git-cmds.md",
+                "file": "google/API.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
           },
           {
-            "id": "d7c6ff18db4f5c51",
+            "id": "3e59b3fef31ce577",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "questions/swagger.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da38ed711784c74b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "google/gRPC.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72e34b481503b468",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "questions/swagger.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4436b4d2881e4faf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DS/questions/subscribe-patient-service.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -87,18 +132,8 @@
       {
         "id": "0a9276ceda252580",
         "type": "tabs",
+        "dimension": 45.53571428571429,
         "children": [
-          {
-            "id": "2846479174f3e4eb",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
           {
             "id": "a94388b5325ef89d",
             "type": "leaf",
@@ -115,39 +150,76 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DS/questions/subscribe-patient-service.md"
+              }
             }
           },
           {
-            "id": "d007f07de3fa5152",
+            "id": "20f1fa9b2fa9da04",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
+              "type": "backlink",
+              "state": {
+                "file": "DS/questions/subscribe-patient-service.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "f0fac0c1884f4b40",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
               "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "3b8ef73b86433d5d",
+        "type": "tabs",
+        "dimension": 54.46428571428571,
+        "children": [
+          {
+            "id": "2846479174f3e4eb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DS/questions/subscribe-patient-service.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 270.5
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "d7c6ff18db4f5c51",
+  "active": "4436b4d2881e4faf",
   "lastOpenFiles": [
-    "git/useful-git-cmds.md",
-    "git/create a remote repo from local repo.md",
-    "my-daily-work-techstack.md",
-    "flutter/flutter-dart.md",
-    "git/without losing the changes.md",
-    "git/introduce a new commit to revert a pushed commit.md",
-    "git/git merge every change separtely.md",
-    "git/git add every change separately.md",
-    "git/discard the changes.md",
-    "git/cherry picking in git.md"
+    "DS/tasks/tasks-without-patient.md",
+    "DS/questions/subscribe-patient-service.md",
+    "questions/swagger.md",
+    "questions/FHIR and DICOM.md",
+    "questions/work-with-tests-in-flutter.md",
+    "techstack/REST.md",
+    "techstack/HTTP.md",
+    "google/Managing API.md",
+    "google/gRPC.md",
+    "google/Firebase.md"
   ]
 }

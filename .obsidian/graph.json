@@ -34,18 +34,46 @@
         "a": 1,
         "rgb": 3371479
       }
+    },
+    {
+      "query": "path: meshes",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path: architecture",
+      "color": {
+        "a": 1,
+        "rgb": 347499
+      }
+    },
+    {
+      "query": "path: byte+",
+      "color": {
+        "a": 1,
+        "rgb": 12285429
+      }
+    },
+    {
+      "query": "path: glossary",
+      "color": {
+        "a": 1,
+        "rgb": 8025600
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": 0,
+  "textFadeMultiplier": -0.5,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 0.99661865234375,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.497517903645833,
-  "repelStrength": 12.0182291666667,
+  "repelStrength": 9.99837239583333,
   "linkStrength": 1,
   "linkDistance": 189,
-  "scale": 1.018741753869892,
+  "scale": 0.18916991450229553,
   "close": true
 }
