@@ -4,3 +4,8 @@ MyClass({String myString, int myInt}) {
 	// ....
 }
 ```
+
+Short form to just initialize arguments:
+```dart
+MyClass(this.myVar);
+```

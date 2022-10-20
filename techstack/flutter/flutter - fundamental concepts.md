@@ -19,3 +19,4 @@ It has some examples for:
 
 ## Best Practices
 - add a comma after every closing parenthesis
+- one [[widget]] per file
