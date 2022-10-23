@@ -9,3 +9,12 @@ Short form to just initialize arguments:
 ```dart
 MyClass(this.myVar);
 ```
+
+Define special constructors:
+```dart
+class MyClass {
+	MyClass.cstor(this.myVar) {
+		myVar = 60;
+	}
+}
+```

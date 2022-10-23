@@ -2,6 +2,8 @@
 
 Use f.ex. a web based playground as [DartPad](https://dartpad.dev)
 
+General information can be found on [Flutter.dev](https://flutter.dev)
+
 It has some examples for:
 - [[HTTP]] request
 - [[Firebase]] nanochat
