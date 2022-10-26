@@ -1,0 +1,1 @@
+- [ ] In the talks about GKE and Networkpolicy the `ipBlock` has been defined by using `cidr: 10.0.0.0/24`. What is `cidr`?

@@ -15,3 +15,10 @@ spec:
 ```
 
 - builds upon [[nodePort]] and therefore also [[clusterIP]]
+
+#### Container-Native load balancing
+- new feature in [[GKE]]
+	- traffic is directed to the [[pod]]s directly instead of to the [[node]]s
+	- requires [[GKE]] to operate in [[VPC]] native mode
+		- uses a data model called [[Network Endpoint Groups|NEG]]
+			- every connection is made between the [[LoadBalancer]] and the [[pod]]
