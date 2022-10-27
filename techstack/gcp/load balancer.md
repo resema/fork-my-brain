@@ -1,6 +1,6 @@
 #gcp #cloud 
 
-Use a [[global load balancer]] to provide access to services deployt in multiple [[region]]s.
+Use a [[global load balancer]] to provide access to services deployed in multiple [[region]]s.
 
 Use a [[regional load balancer]] to provide access to services deployed in a single [[region]].
 
