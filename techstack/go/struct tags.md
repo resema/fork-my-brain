@@ -45,3 +45,5 @@ func main() {
 	fmt.Println(string(out))
 }
 ```
+
+(Example used [[declaration and assignment]] abbreviation)
