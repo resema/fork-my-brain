@@ -18,3 +18,35 @@
 		- persistend disks are used by [[GKE]] as PersistentVolumes
 	- `PersistenVolumeClaim (PVC)`
 		- [[pod]] uses `PVClaim` to uses a persistent volume 
+
+### Example
+```yaml
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: hello-web-disk
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 30Gi
+```
+
+```yaml
+kind: Pod
+apiVersion: v1
+metadata:
+  name: pvc-demo-pod
+spec:
+  containers:
+    - name: frontend
+      image: nginx
+      volumeMounts:
+      - mountPath: "/var/www/html"
+        name: pvc-demo-volume
+  volumes:
+    - name: pvc-demo-volume
+      persistentVolumeClaim:
+        claimName: hello-web-disk
+```

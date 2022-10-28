@@ -2,7 +2,8 @@
 
 - [[volume]]
 - [[persistent volume]]
-
+	- [[regional persistent disks]]
+		
 ### Ephemeral volume types
 - shares [[pod]]'s lifecycle
 - [[ConfigMap]] can be reference in a volume
