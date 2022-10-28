@@ -1,4 +1,4 @@
-#gcp #k8s #kubernetes 
+#gcp #k8s #kubernetes #cheat
 
 To get an interactive [[bash]] in a [[kubernetes]] [[cluster]] to a [[pod]]
 

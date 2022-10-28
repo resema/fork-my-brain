@@ -8,11 +8,10 @@ Is a mix between [[state management]] and [[dependency injection]]. Some call it
 #### What does Provider do for me?
 - separates your [[state]] from your [[UI]]
 - manages rebuilding [[UI]] based on [[state change]]s
+- provides a simple [[API]] to [[techstack/flutter/Consumer|Consumer]] to interact with provided modesl in the [[widget]] itself
 
 #### Most basic example
-
 https://dartpad.dev/?id=e66e420f2f0201c772f73819711bf290
-
 ```dart
 import 'dart:collection'; // used in test.dart
 import 'package:flutter/foundation.dart'; // used in test.dart
@@ -69,5 +68,5 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
-
 ```
+If a value is not ready by the time the [[widget tree]] is ready to use it's values. Therefor, the main use case of [[techstack/flutter/FutureProvider|FutureProvider]] is to ensure that a null value isn't passed to any [[widget]].

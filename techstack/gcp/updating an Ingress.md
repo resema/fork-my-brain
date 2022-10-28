@@ -1,4 +1,4 @@
-#k8s #kubernetes #command #cmd
+#k8s #kubernetes #command #cmd #cheat 
 
 command for [[ingress]]es:
 

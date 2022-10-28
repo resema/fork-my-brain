@@ -1,4 +1,4 @@
-#gcp #cloud #messaging
+#gcp #cloud #messaging #cheat 
 
 ```sh
 gcloud pubsub topics create $my_pubsub_topic

@@ -1,4 +1,4 @@
-#git 
+#git #cheat 
 
 see also [[cherry picking in git]]
 

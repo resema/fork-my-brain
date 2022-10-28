@@ -1,4 +1,4 @@
-#IaC 
+#IaC #cheats
 
 Is an infrastructure automation tool aka [[Infrastructure as Code|IaC]].
 

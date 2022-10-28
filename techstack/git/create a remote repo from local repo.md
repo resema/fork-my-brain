@@ -1,4 +1,4 @@
-#git 
+#git #cheat 
 
 ```sh
 git init -b main
