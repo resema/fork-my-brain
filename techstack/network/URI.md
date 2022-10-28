@@ -1,3 +1,5 @@
+#network
+
 ### Best practices
 - plural nouns for sets (collections)
 - singular nouns for individual resources

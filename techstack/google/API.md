@@ -1,4 +1,4 @@
-#design #convention
+#design #convention #gcp
 
 - each Google Cloud service exposes a [[REST]] API
 	- functions are in the form: `service.collection.verb`
