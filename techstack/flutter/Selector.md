@@ -2,6 +2,8 @@
 
 In a nutshell, `Selector` is a [[Consumer]] that allows you to define exactly which properties from a model you care about.
 
+Can be omitted when [[extension]] are used to the [[BuildContext]].
+
 ### Example
 ```dart
 import 'dart:collection';
