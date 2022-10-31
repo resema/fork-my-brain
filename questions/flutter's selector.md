@@ -2,5 +2,5 @@
 
 [[selector]] somehow related to [[Provider]]...
 
-- [ ] how do `selectors` work?
+- [x] how do `selectors` work?
 - [ ] how are they related to `InitSelectors`
