@@ -6,3 +6,7 @@ A placeholder for a value that will exist.
 Most common scenario for using futures is when you're getting values over the [[network]].
 
 Futures are [[thenable]].
+
+### Catching Errors
+- there's a method `catchError`
+- with `try/catch` blocks
