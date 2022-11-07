@@ -1,6 +1,6 @@
 #k8s #kubernetes #command #cmd #cheat 
 
-command for [[ingress]]es:
+command for [[Ingress]]es:
 
 ```sh
 $ kubectl edit ingress [NAME]

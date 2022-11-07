@@ -4,7 +4,7 @@
 - Exposes a single [[IP address]]
 - Combines an Google cloud [[LoadBalancer]] with [[kubernetes]] [[service]]s
 - Ingress can direct traffic to:
-	- [[nodePort]] services
+	- [[NodePort]] services
 	- [[LoadBalancer]] services
 		- still have the [[double-hop dilemma]]
 			- can be migrated by using the [[Local external-traffic policy]] in the [[service]] [[manifest]]

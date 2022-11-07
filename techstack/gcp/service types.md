@@ -2,7 +2,7 @@
 
 3 different types:
 - [[clusterIP]]
-- [[nodePort]]
+- [[NodePort]]
 - [[LoadBalancer]]
 
 They build on each other:
