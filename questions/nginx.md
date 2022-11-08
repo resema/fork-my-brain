@@ -1,5 +1,5 @@
 #question 
 
-- [ ] What does nginx?
+- [ ] What does Nginx?
 - [ ] When is it used?
 - [ ] What are the pros/cons?
