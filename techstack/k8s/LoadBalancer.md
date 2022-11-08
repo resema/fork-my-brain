@@ -14,7 +14,7 @@ spec:
 			  targetPort: 9376
 ```
 
-- builds upon [[NodePort]] and therefore also [[clusterIP]]
+- builds upon [[NodePort]] and therefore also [[ClusterIP]]
 
 #### Container-Native load balancing
 - new feature in [[GKE]]

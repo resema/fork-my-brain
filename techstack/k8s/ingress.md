@@ -1,4 +1,4 @@
-#gcp #cloud 
+#gcp #cloud #ingress
 
 - Ingress is a layer higher than [[service]]s. A bit like a [[service]] for [[service]]s.
 	- its a [[reverse proxy]]

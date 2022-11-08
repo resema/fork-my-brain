@@ -1,4 +1,4 @@
-#gcp #cloud 
+#gcp #cloud #ingress
 
 Useful for internal communication within cluster. Helps to expose a service with port`30100` to external [[LoadBalancer]]
 
@@ -19,4 +19,4 @@ spec:
 ```
 
 How does it work?
-- [[clusterIP]] service is automatically created while creating nodePort
+- [[ClusterIP]] service is automatically created while creating nodePort

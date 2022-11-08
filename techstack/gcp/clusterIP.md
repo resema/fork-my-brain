@@ -1,6 +1,6 @@
-#gcp #cloud 
+#gcp #cloud #ingress
 
-a clusterIP service has a static [[IP address]]
+A ClusterIP service has a static [[IP address]]. This or [[NodePort]] are needed for [[Ingress]]es. A [[service]] with type ClusterIP is only accessible from within the [[cluster]].
 
 ```yaml
 apiVersion: v1

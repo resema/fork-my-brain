@@ -1,7 +1,7 @@
 #gcp #cloud
 
 3 different types:
-- [[clusterIP]]
+- [[ClusterIP]]
 - [[NodePort]]
 - [[LoadBalancer]]
 
