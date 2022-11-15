@@ -5,8 +5,8 @@
 - Exposes a single [[IP address]]
 	- in [[multi-zonal]] [[cluster]]s a single ingress can handle traffic for all of them
 - most popular [[techstack/k8s/Ingress controller|Ingress controller]]s
-	- [[Nginx]], [[Ambassador]], [[Contour]] and [[Traefik]]
-		- most of these use [[Nginx]], [[HAProxy]] or [[Envoy]] as the [[reverse proxy]]
+	- [[Nginx]] ([[questions/Nginx|questions]]), [[Ambassador]], [[Contour]] and [[Traefik]]
+		- most of these use [[questions/Nginx]], [[HAProxy]] or [[Envoy]] as the [[reverse proxy]]
 
 - Combines an Google cloud [[LoadBalancer]] with [[kubernetes]] [[service]]s
 - Ingress can direct traffic to:
