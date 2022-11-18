@@ -1,0 +1,3 @@
+#testing #UI #UX
+
+"A/B testing" is a shorthand for a simple randomized [controlled](https://en.wikipedia.org/wiki/Controlling_for_a_variable "Controlling for a variable") experiment, in which a number of samples (e.g. A and B) of a single [vector-variable](https://en.wikipedia.org/wiki/Multivariate_random_variable "Multivariate random variable") are compared.[1](https://en.wikipedia.org/wiki/A/B_testing#cite_note-Young2014-1) These values are similar except for one variation which might affect a user's behavior. A/B tests are widely considered the simplest form of controlled experiment, especially when they only involve two variants. However, by adding more variants to the test, its complexity grows.
