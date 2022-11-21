@@ -1,13 +1,5 @@
 #kubernetes #security #authorization #authentication #gcp #k8s 
 
-##### Authentication
-- Accessing [[API]]s
-- [[OAuth 2.0]]
-
-##### Authorization
-- Identifying Users
-- [[OpenID]]
-
 [[kubernetes]] knows two main types of users:
 - normal users
 	- rely on external [[identity provider]]s

@@ -9,3 +9,6 @@
 - include verison information
 
 Used in [[REST]] or  [[HTTP]] protocols between services.
+
+Is a way to the machine. [[URL]] is a subtime of URI.
+- client identifies a resource to the server via a URI with the schema [[HTTP]] or [[HTTPS]].

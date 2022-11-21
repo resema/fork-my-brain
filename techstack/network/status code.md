@@ -11,3 +11,6 @@ link: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 	- the request contains bad syntax or cannot be fulfilled
 -   _5xx server error_ 
 	- the server failed to fulfil an apparently valid request
+- _9xx proprietary status codes_
+	- error from the network, not from the requesting device
+	- client or user should make request again

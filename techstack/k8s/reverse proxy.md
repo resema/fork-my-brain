@@ -20,3 +20,8 @@ Client --> Proxy
 Proxy --> p2
 @enduml
 ```
+
+#### Example
+- [[LoadBalancer]]
+- [[firewall]]
+- web server [[Apache]], [[techstack/network/Nginx|Nginx]] 
