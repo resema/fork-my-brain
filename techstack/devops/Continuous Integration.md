@@ -1,4 +1,4 @@
-#CI 
+#CI #devops
 
 It is realized by defining pipelines for automated builds.
 

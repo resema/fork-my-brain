@@ -1,4 +1,4 @@
-#flutter 
+#flutter  #buildcontext 
 
 Under the hood, that `of` method is looking up the [[widget tree]] for the next parent [[widget]] that is of type `Theme`, and grabbing that property.
 

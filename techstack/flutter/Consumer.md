@@ -1,4 +1,4 @@
-#flutter #notification 
+#flutter #notification #provider #changenotifier 
 
 Consumer exposes instances of provided models, so one can display data and call methods on provided model.
 

@@ -1,4 +1,4 @@
-#flutter 
+#flutter #notifier #changenotifier #notification
 
 Is a class that can be [[extended]] or [[mix-in]]-ed that provides a change [[notification]] [[API]] using [[VoidCallback]] for notifivations.
 

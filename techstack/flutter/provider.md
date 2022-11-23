@@ -1,4 +1,4 @@
-#flutter #statemanagement #dependencyinjection
+#flutter #statemanagement #dependencyinjection #provider
 
 Is a mix between [[state management]] and [[dependency injection]]. Some call it 'Inherited [[Widget]]s for humans'.
 

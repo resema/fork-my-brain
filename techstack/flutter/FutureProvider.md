@@ -1,4 +1,4 @@
-#flutter #dependencyinjection 
+#flutter #dependencyinjection #provider 
 
 Future provider has a initial value, which widgets can use until the `Future` value is resolved. When resolved, it the `FutureProvider` will tell it's descendents to rebuild, using the new value.
 

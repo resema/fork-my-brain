@@ -1,4 +1,4 @@
-#flutter #async #observer #concurrency 
+#flutter #async #observer #concurrency #sink
 
 _Sinks_ are the first stop of [[event]]s in the [[observer pattern]]. A sink is the piece of the puzzle that you feed data into. It's kind of the central source for the whole process
 

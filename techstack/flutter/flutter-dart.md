@@ -1,4 +1,4 @@
-#flutter #dart #root 
+#flutter #dart #root #pubspec
 
 [[Flutter usefull links]] are helpful if some insights are needed
 

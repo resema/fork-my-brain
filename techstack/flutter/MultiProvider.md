@@ -1,4 +1,4 @@
-#flutter #provider #dependencyinjection 
+#flutter #provider #dependencyinjection #multi
 
 `MultiProvider` let's you pass in a list of providers without nesting anything.
 

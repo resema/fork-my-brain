@@ -1,4 +1,4 @@
-#flutter 
+#flutter #basic 
 
 In Flutter everything is a widget. It is arranged in a [[widget tree]]. This is connected to the [[element tree]].
 

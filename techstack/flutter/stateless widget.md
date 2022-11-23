@@ -1,4 +1,4 @@
-#flutter
+#flutter #stateless
 
 ```plantuml
 component "Input Data" as input

@@ -1,4 +1,4 @@
-#dart #flutter
+#dart #flutter #operator #fold
 ```dart
 ...(List<String>)
 ```

@@ -1,4 +1,4 @@
-#IaC
+#IaC #devops
 
 In the cloud, all infrastructure needs to be disposable. Achieved by:
 - scripts

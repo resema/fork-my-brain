@@ -1,4 +1,4 @@
-#flutter #provider
+#flutter #provider #provider #stream 
 
 `StreamProvider` provides streamed values. Like [[FutureProvider]], provided values will be auto-magically passed the new values of the provided value as they come in.
 

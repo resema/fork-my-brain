@@ -1,4 +1,4 @@
-#flutter 
+#flutter #changenotifier #consumer #buildcontext 
 
 In a nutshell, `Selector` is a [[Consumer]] that allows you to define exactly which properties from a model you care about.
 

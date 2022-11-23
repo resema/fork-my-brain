@@ -1,4 +1,4 @@
-#IaC #cheats
+#IaC #cheat #devops #tool
 
 Is an infrastructure automation tool aka [[Infrastructure as Code|IaC]].
 

@@ -1,4 +1,4 @@
-#flutter #pattern 
+#flutter #pattern #singleton
 
 Singleton is an single instance within the complete system. There are multiple solutions to this scenario in the different languages.
 
