@@ -1,0 +1,21 @@
+#architecture #patterns #cheat 
+
+- [[separation of concerns]]
+- [[abstraction]]:
+    - in the sense of a means for **deriving useful generalizations**
+    - as a design construct, where **building blocks are dependent** on the **abstraction** rather then depending on implementations
+    - [[interfaces as abstractions]]
+- [[modularizations]]:
+    - [[information hiding]] and [[encapsulation]]
+    -  [[separation of concerns]] aka. SOC
+    - [[loose, but functionally sufficient, coupling]] of building blocks
+    - [[SOLID]] principles:
+- [[conceptual integrity]]:
+    - **uniformity of solutions for similar problems**
+    - achieve the **principle of least surprise**
+- [[simplicity]]:
+    - **reduce complexity**
+    - [[KISS]] and [[YAGNI]]
+- Expect Errors:
+    - design for **robust and resilient systems**
+    - **generalisation of robustness principle** aka. Postel's Law

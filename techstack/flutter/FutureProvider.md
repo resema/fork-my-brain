@@ -1,6 +1,6 @@
 #flutter #dependencyinjection #provider 
 
-Future provider has a initial value, which widgets can use until the `Future` value is resolved. When resolved, it the `FutureProvider` will tell it's descendents to rebuild, using the new value.
+FutureProvider has a initial value, which widgets can use until the `Future` value is resolved. When resolved, it the `FutureProvider` will tell it's descendents to rebuild, using the new value.
 
 Importantly, this means that the widgets who rely on the value of a future provider will only rebuild once. It will display the initial value, and then the provided future value, and then won't rebuild again.
 
@@ -21,7 +21,7 @@ class Person {
 class Home {
   final String city = "Portland";
 
-	// the value tthat will be provided must be a `Future`!
+	// the value that will be provided must be a `Future`!
   Future<String> get fetchAddress {
     final address = Future.delayed(Duration(seconds: 2), () {
       return '1234 North Commercial Ave.';
@@ -37,7 +37,7 @@ void main() {
       create: (_) => Person(name: 'Yohan', age: 25),
 			
 			// The future provider provides a String value, 
-      // rather than the entire claass of Home
+      // rather than the entire class of Home
       child: FutureProvider<String>(
         create: (context) => Home().fetchAddress,
         // this will be displayed in the meantime

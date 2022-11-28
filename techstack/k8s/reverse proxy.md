@@ -21,6 +21,9 @@ Proxy --> p2
 @enduml
 ```
 
+#### Authorization with Reverse Proxy
+![](reverse-proxy-shield.png)
+
 #### Example
 - [[LoadBalancer]]
 - [[firewall]]

@@ -12,3 +12,7 @@
 		- are guidelines for constructing systems
 	- [structure](https://fundamentalsofsoftwarearchitecture.com/images/book/fosa_0103.png)
 		- refers to the type of architecture style (such as [[microservice]]s, [[layer]]ed or [[microkernel]])
+
+
+### Awesome resources
+- can be found by using [[awesome resources on every technology]]

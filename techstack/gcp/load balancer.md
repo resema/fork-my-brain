@@ -9,3 +9,17 @@ If your load balancers have public [[IP]]s, secure them with [[SSL]]
 - HTTP(S) load balancing
 - TCP load balancing
 - UDP load balancing
+
+### Server Load Balancing
+- Advantages: [[scalability]], [[availability]], [[security]], [[service quality]]
+
+- [[stateless]] load balancing:
+	- uses [[hash]] function
+		- [[IP]] hash
+	- advantages
+		- easy to implement
+		- works for any type of IP-based application/network traffic
+
+- [[stateful]] load balancing
+	- load balancer must know protocol semantics to recognize session initiation and termination
+	- [[session persistence]]
