@@ -1,11 +1,11 @@
 #k8s #kubernetes #storage
 
-- are a directory which is accessible to all of the [[techstack/gcp/container|container]]s in a [[pod]]
-- some volumes are [[ephemeral]]
-- some volumes are [[persistent]]
-- volumes allow [[techstack/gcp/container|container]]s within a [[pod]] to share data between [[VM]]
+- are a directory which is accessible to all of the [container](/techstack/gcp/container.md)s in a [pod](/techstack/gcp/pod.md)
+- some volumes are [ephemeral](/ephemeral)
+- some volumes are [persistent](/persistent)
+- volumes allow [container](/techstack/gcp/container.md)s within a [pod](/techstack/gcp/pod.md) to share data between [VM](/VM)
 
-### Using [[persistent volume]] and [[PersistentVolumeClaim]]
+### Using [persistent volume](/techstack/k8s/persistent%20volume.md) and [PersistentVolumeClaim](/PersistentVolumeClaim)
 
 ```yaml
 apiVersion: v1

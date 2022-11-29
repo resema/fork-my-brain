@@ -1,5 +1,5 @@
 #UI #flutter  
 
-The container is a [[UI]] [[widget]].
+The container is a [UI](/UI) [widget](/techstack/flutter/widget.md).
 
-![[container.svg]]
+![container](/_diag/container.svg)

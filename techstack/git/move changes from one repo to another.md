@@ -1,6 +1,6 @@
 #git #cheat 
 
-see also [[cherry picking in git]]
+see also [cherry picking in git](/techstack/git/cherry%20picking%20in%20git.md)
 
 By using `git log` to find the ID of the commit you want pick. Then checkout the feature branch, assuming your changes have been committed, and run `cherry-pick`.
 

@@ -3,7 +3,7 @@
 Three elements are defined in Cloud IAM access control
 - Who -> identity/member
 - Which -> gcp project
-- What -> [[IAM role|role]]s & permissions
+- What -> [role](/techstack/gcp/IAM%20role.md)s & permissions
 
 Organised hierarchically:
 - organization -> folder -> project -> resource

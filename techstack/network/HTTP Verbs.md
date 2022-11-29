@@ -23,7 +23,7 @@ Content-Type: text/html; charset=utf-8
 The cats are a family...
 ```
 
-- `POST` is used to create new resources in [[REST]]
+- `POST` is used to create new resources in [REST](/techstack/network/REST.md)
 ```http
 POST /send.php HTTP/1.1
 Host: www.itech-progress.com
@@ -36,7 +36,7 @@ Connection: close
 firstname=Max&name=Mustermann (or as JSON)
 ```
 
-- `PUT` is used to manipulate/update existing resources in [[REST]]
+- `PUT` is used to manipulate/update existing resources in [REST](/techstack/network/REST.md)
 ```http
 PUT /new.html HTTP/1.1
 Host: www.itech-progress.com

@@ -1,19 +1,19 @@
 #k8s #kubernetes 
 
-StatefulSets are designed for [[stateful]] application.
+StatefulSets are designed for [stateful](/stateful) application.
 
-Each [[pod]] in a StatefulSet maintains a [[persistent identity]]
+Each [pod](/techstack/gcp/pod.md) in a StatefulSet maintains a [persistent identity](/persistent%20identity)
 - ordinal index
 - stable hostname
 - stably identified storage
 
-Deployment, scaling, and updates are ordered using the [[ordinal index]] of the [[pod]]s within a StatefulSet
+Deployment, scaling, and updates are ordered using the [ordinal index](/ordinal%20index) of the [pod](/techstack/gcp/pod.md)s within a StatefulSet
 
-StatefulSet name _demo_ launches 3 [[replica]]s:
-- launches [[pod]]s sequentially named
+StatefulSet name _demo_ launches 3 [replica](/replica)s:
+- launches [pod](/techstack/gcp/pod.md)s sequentially named
 - scaling and rolling updates happen in reverse order
 
-[[Pod Management Policy]] 
+[Pod Management Policy](/Pod%20Management%20Policy) 
 - `OrderedReady (default)`
 - `parallel`
 

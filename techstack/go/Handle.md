@@ -1,6 +1,6 @@
 #go #network #http 
 
-Handle registers the [[Handler]] for the given pattern in the DefaultServeMux. The documentation for [[ServeMux]] explains how patterns are matched.
+Handle registers the [Handler](/Handler) for the given pattern in the DefaultServeMux. The documentation for [ServeMux](/ServeMux) explains how patterns are matched.
 
 ```go
 // Handle registers the handler for the given pattern
@@ -39,6 +39,6 @@ func main() {
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 ```
-- `countHandler` must implement the [[interface]] of a [[Handler]]
+- `countHandler` must implement the [interface](/techstack/go/interface.md) of a [Handler](/Handler)
 	- `ServeHTTP(ResponseWriter, *Request`
-		- takes a [[ResponseWriter]] and a [[Request]]
+		- takes a [ResponseWriter](/techstack/go/ResponseWriter.md) and a [Request](/Request)

@@ -1,7 +1,7 @@
 #cloud #network #http 
 
 CSP := Content Security Policy
-- based on [[CORS]], [[HTTP]] headers can be used to specify wether certain elements (not only scripts) are allowed to reload resources from other domains
+- based on [CORS](/techstack/network/CORS.md), [HTTP](/techstack/network/HTTP.md) headers can be used to specify wether certain elements (not only scripts) are allowed to reload resources from other domains
 
 ```http
 ...

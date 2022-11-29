@@ -1,6 +1,6 @@
 #gcp #cloud 
 
-How to run a [[pod]] with an interactive session attached:
+How to run a [pod](/techstack/gcp/pod.md) with an interactive session attached:
 
 ```sh
 kubectl run test-1 --labels app=foo --image=alpine --restart=Never --rm --stdin --tty

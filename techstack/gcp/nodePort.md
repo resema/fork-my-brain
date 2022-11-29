@@ -1,6 +1,6 @@
 #gcp #cloud #ingress
 
-Useful for internal communication within cluster. Helps to expose a service with port`30100` to external [[LoadBalancer]]
+Useful for internal communication within cluster. Helps to expose a service with port`30100` to external [LoadBalancer](/techstack/k8s/LoadBalancer.md)
 
 ```yaml
 apiVersion: v1
@@ -19,4 +19,4 @@ spec:
 ```
 
 How does it work?
-- [[ClusterIP]] service is automatically created while creating nodePort
+- [ClusterIP](/techstack/gcp/ClusterIP.md) service is automatically created while creating nodePort

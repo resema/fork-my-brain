@@ -1,6 +1,6 @@
 #flutter #async #concurrency 
 
-Keywords `async` and `await` are the easiest way to wrap your head around [[async]] programming.
+Keywords `async` and `await` are the easiest way to wrap your head around [async](/async) programming.
 
 Any function can be marked as `async`, and then tell that function to `await` async processes to finish before moving on.
 

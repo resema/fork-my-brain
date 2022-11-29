@@ -1,6 +1,6 @@
 #flutter #OOP #inheritance #mixin
 
-Mixins are a way of reusing a class's code in different class hierarchies. Like [[inheritance]] but we don't need to have parent classes to provide functionality between related classes.
+Mixins are a way of reusing a class's code in different class hierarchies. Like [inheritance](/techstack/flutter/inheritance.md) but we don't need to have parent classes to provide functionality between related classes.
 
 #### Example
 ```dart

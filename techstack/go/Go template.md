@@ -1,6 +1,6 @@
 #go #http #network 
 
-[[Go]] templates – in the way we're using them here – are essentially just named text blocks surrounded by `{{define}}` and `{{end}}` tags. [[Template]]s can be embedded into each other using the `{{template}}` tag, like we do above where the `layout` template embeds both the `title` and `body` templates.
+[Go](/Go) templates – in the way we're using them here – are essentially just named text blocks surrounded by `{{define}}` and `{{end}}` tags. [Template](/Template)s can be embedded into each other using the `{{template}}` tag, like we do above where the `layout` template embeds both the `title` and `body` templates.
 
 #### Example
 ```go

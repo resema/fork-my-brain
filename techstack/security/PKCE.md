@@ -2,7 +2,7 @@
 
 ### Proof Key for Code Exchange 
 
-PKCE ([RFC 7636](http://tools.ietf.org/html/rfc7636)) is an extension to the [Authorization Code flow](https://oauth.net/2/grant-types/authorization-code/) to prevent [[CSRF]] and authorization code injection attacks.
+PKCE ([RFC 7636](/http://tools.ietf.org/html/rfc7636)) is an extension to the [Authorization Code flow](/https://oauth.net/2/grant-types/authorization-code/) to prevent [CSRF](/CSRF) and authorization code injection attacks.
 
 PKCE is _not_ a replacement for a client secret, and PKCE is recommended even if a client is using a client secret.
 

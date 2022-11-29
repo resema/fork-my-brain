@@ -1,10 +1,10 @@
 #IaC #cheat #devops #tool
 
-Is an infrastructure automation tool aka [[Infrastructure as Code|IaC]].
+Is an infrastructure automation tool aka [IaC](/techstack/devops/Infrastructure%20as%20Code.md).
 
 - declarative language
 - template driven
-- uses Cloud providers [[API]]
+- uses Cloud providers [API](/techstack/google/API.md)
 - resources are infrastructure objects
 - configuration file guides the management of resources
 - already installed in Google Cloud Console

@@ -12,7 +12,7 @@ input -d-> widget
 widget -d-> ui
 ```
 
-see also [[stateless widget]]
+see also [stateless widget](/techstack/flutter/stateless%20widget.md)
 
 ### Change state
 ```dart

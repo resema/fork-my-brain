@@ -1,7 +1,7 @@
 #architecture #web #web
 
-- besides atomic [[HTML]] elements there are complex [[HTML]] elements
-- for developers the parts of complex [[HTML]] elements are not visible
-- browsers uses atomic [[HTML]] elements to display complex [[HTML]] elements
+- besides atomic [HTML](/HTML) elements there are complex [HTML](/HTML) elements
+- for developers the parts of complex [HTML](/HTML) elements are not visible
+- browsers uses atomic [HTML](/HTML) elements to display complex [HTML](/HTML) elements
 
-![overview](shadowDOM.png)
+![overview](/_diag/shadowDOM.png)

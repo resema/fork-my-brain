@@ -1,19 +1,19 @@
 #flutter #observer #stream #observer 
 
-Streams are an asynchronous programming pattern, often called [[observable]]s in other languages. From a high-level, streams provide a way for classes or objects to be notified when events happen.
+Streams are an asynchronous programming pattern, often called [observable](/observable)s in other languages. From a high-level, streams provide a way for classes or objects to be notified when events happen.
 
-[[StreamBuilder]] makes use of streams.
+[StreamBuilder](/StreamBuilder) makes use of streams.
 
-It is part of the [[techstack/flutter/observer pattern|observer pattern]].
+It is part of the [observer pattern](/techstack/flutter/observer%20pattern.md).
 
 #### Async umbrella
-- [[techstack/flutter/Future|Future]]
-- [[techstack/flutter/Completer|Completer]]
-- [[techstack/flutter/async-await|async/await]]
-- [[async for]]
-- [[techstack/flutter/Stream|Stream]]
-- [[techstack/flutter/Sink|Sink]]
-- [[techstack/flutter/listen|listen]]
+- [Future](/techstack/flutter/Future.md)
+- [Completer](/techstack/flutter/Completer)
+- [async/await](/techstack/flutter/async-await.md)
+- [async for](/async%20for)
+- [Stream](/techstack/flutter/Stream.md)
+- [Sink](/techstack/flutter/Sink.md)
+- [listen](/techstack/flutter/listen)
 
 ### Implementing Streams
 ```dart

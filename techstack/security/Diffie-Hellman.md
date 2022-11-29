@@ -1,6 +1,6 @@
 #encryption #security #TLS #TLS/SSL 
 
-An [[encryption]] approach:
+An [encryption](/techstack/security/encryption.md) approach:
 1. non-secret parameters: prime number `g`
    - primitive root `p` modulo `g`.
 2. generation of secret random numbers `(a,b)`

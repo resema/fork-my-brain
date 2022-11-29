@@ -1,6 +1,6 @@
 #dart #flutter #constructor #namedargument
 
-To use [[Dart's named arguments]] you have to use curly brackets, like:
+To use [Dart's named arguments](/techstack/flutter/Dart's%20named%20arguments.md) you have to use curly brackets, like:
 ```dart
 MyClass({String myString, int myInt}) {
 	// ....

@@ -1,9 +1,9 @@
 #flutter #provider #proxy
 
-It's just a [[proxy]]:
+It's just a [proxy](/proxy):
 - ProxyProvider0, ProxyProvider2, 3, 4, 5, 6
-- [[ChangeNotifierProxyProvider]], 2, 3, 4, 5, 6
-- [[ListenableProxyProvider]], 2, 3, 4, 5, 6
+- [ChangeNotifierProxyProvider](/ChangeNotifierProxyProvider), 2, 3, 4, 5, 6
+- [ListenableProxyProvider](/ListenableProxyProvider), 2, 3, 4, 5, 6
 
 ### Example
 ```dart

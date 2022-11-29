@@ -1,6 +1,6 @@
 #security #token #refreshtoken #oauth 
 
-Are refresh token can be used behind the scene to refresh the [[token]] for access with the interaction of the user with [[OAuth 2.0]] server.
+Are refresh token can be used behind the scene to refresh the [token](/token) for access with the interaction of the user with [OAuth 2.0](/techstack/security/OAuth%202.0.md) server.
 
 In mobile this `refresh_token` is stored in a sandbox like storage, not even accessable by the app itself.
 

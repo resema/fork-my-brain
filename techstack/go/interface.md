@@ -1,12 +1,12 @@
 #go #inheritance #interface 
 
 - interfaces are implemented **implicitly**
-- they have [[dynamic type]] and [[static type]]
-- interface type value is `nil` iff both [[dynamic type]] and [[dynamic value]] are `nil`
+- they have [dynamic type](/techstack/go/dynamic%20type.md) and [static type](/techstack/go/static%20type.md)
+- interface type value is `nil` iff both [dynamic type](/techstack/go/dynamic%20type.md) and [dynamic value](/techstack/go/dynamic%20value.md) are `nil`
 
-- Methods declared with **pointer [[receiver]]** can **only** by called by interface type values that contain pointer.
+- Methods declared with **pointer [receiver](/techstack/go/receiver.md)** can **only** by called by interface type values that contain pointer.
 
-- Methods declared with **value [[receiver]]** can be called by interface type values that contain **both values and pointers**
+- Methods declared with **value [receiver](/techstack/go/receiver.md)** can be called by interface type values that contain **both values and pointers**
 
 ```go
 type I interface {

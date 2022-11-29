@@ -1,6 +1,6 @@
 #medical 
 
-The HIPAA Privacy Rule defines 18 identifiers that make health information [[Protected Health Information (PHI)]] under HIPAA:
+The HIPAA Privacy Rule defines 18 identifiers that make health information [Protected Health Information (PHI)](/Glossary/Protected%20Health%20Information%20(PHI).md) under HIPAA:
 
 1. Names
 2. All geographic subdivisions smaller than a state (street address, city, county, zip code)

@@ -1,8 +1,8 @@
 #flutter #changenotifier #consumer #buildcontext 
 
-In a nutshell, `Selector` is a [[Consumer]] that allows you to define exactly which properties from a model you care about.
+In a nutshell, `Selector` is a [Consumer](/techstack/flutter/Consumer.md) that allows you to define exactly which properties from a model you care about.
 
-Can be omitted when [[extension]] are used to the [[BuildContext]].
+Can be omitted when [extension](/techstack/flutter/extension.md) are used to the [BuildContext](/techstack/flutter/BuildContext.md).
 
 ### Example
 ```dart

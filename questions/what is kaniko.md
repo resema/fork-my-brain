@@ -1,3 +1,3 @@
 #cloud #container #question 
 
-- [ ] What is or does [[Kaniko]]?
+- [ ] What is or does [Kaniko](/Kaniko)?

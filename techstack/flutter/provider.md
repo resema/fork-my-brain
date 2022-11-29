@@ -1,14 +1,14 @@
 #flutter #statemanagement #dependencyinjection #provider
 
-Is a mix between [[state management]] and [[dependency injection]]. Some call it 'Inherited [[Widget]]s for humans'.
+Is a mix between [state management](/state%20management) and [dependency injection](/dependency%20injection). Some call it 'Inherited [widget](/techstack/flutter/widget.md)s for humans'.
 
-- Provider gives us an easy, low [[boiler-plate]] way to separate business logic from our [[widget]]s in apps
+- Provider gives us an easy, low [boiler-plate](/boiler-plate) way to separate business logic from our [widget](/techstack/flutter/widget.md)s in apps
 - it makes it easy to re-use and re-factor business logic
 
 #### What does Provider do for me?
-- separates your [[state]] from your [[UI]]
-- manages rebuilding [[UI]] based on [[state change]]s
-- provides a simple [[API]] to [[techstack/flutter/Consumer|Consumer]] to interact with provided modesl in the [[widget]] itself
+- separates your [state](/state) from your [UI](/UI)
+- manages rebuilding [UI](/UI) based on [state change](/state%20change)s
+- provides a simple [API](/techstack/google/API.md) to [Consumer](/techstack/flutter/Consumer.md) to interact with provided modesl in the [widget](/techstack/flutter/widget.md) itself
 
 #### Most basic example
 https://dartpad.dev/?id=e66e420f2f0201c772f73819711bf290
@@ -69,4 +69,4 @@ class MyHomePage extends StatelessWidget {
   }
 }
 ```
-If a value is not ready by the time the [[widget tree]] is ready to use it's values. Therefor, the main use case of [[techstack/flutter/FutureProvider|FutureProvider]] is to ensure that a null value isn't passed to any [[widget]].
+If a value is not ready by the time the [widget tree](/widget%20tree) is ready to use it's values. Therefor, the main use case of [FutureProvider](/techstack/flutter/FutureProvider.md) is to ensure that a null value isn't passed to any [widget](/techstack/flutter/widget.md).

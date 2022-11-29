@@ -1,6 +1,6 @@
 #flutter  #buildcontext 
 
-Under the hood, that `of` method is looking up the [[widget tree]] for the next parent [[widget]] that is of type `Theme`, and grabbing that property.
+Under the hood, that `of` method is looking up the [widget tree](/widget%20tree) for the next parent [widget](/techstack/flutter/widget.md) that is of type `Theme`, and grabbing that property.
 
 ```dart
 @override

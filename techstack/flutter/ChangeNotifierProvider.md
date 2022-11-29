@@ -1,6 +1,6 @@
 #flutter #provider #notification #dependencyinjection #notifier 
 
-One of the class most often used. This is basically a [[Provider]]-wrapper over a class that implements [[ChangeNotifier]].
+One of the class most often used. This is basically a [provider](/techstack/flutter/provider.md)-wrapper over a class that implements [ChangeNotifier](/techstack/flutter/ChangeNotifier.md).
 
 ### Example
 ```dart

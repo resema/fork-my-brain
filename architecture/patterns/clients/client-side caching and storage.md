@@ -1,7 +1,7 @@
 #architecture #pattern #web 
 
 - mobile browser cache
-- [[HTML5]] application cache
+- [HTML5](/HTML5) application cache
 - Web Storage
 - WebSQL
 - Indexed DB

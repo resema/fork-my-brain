@@ -1,3 +1,3 @@
 #gcp #nosql #db
 
-Is a [[NoSQL]] database
+Is a [NoSQL](/NoSQL) database

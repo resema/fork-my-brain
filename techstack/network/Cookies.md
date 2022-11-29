@@ -1,8 +1,8 @@
 #network #http 
 
-- Cookie is sent in every [[request]] but within [[HTTPS]] encrypted.
+- Cookie is sent in every [request](/request) but within [HTTPS](/techstack/network/HTTPS.md) encrypted.
 - is stored locally in the browser
-	- browser is acting like a [[sandbox]]
+	- browser is acting like a [sandbox](/sandbox)
 - valid until expired
 
 Create cookie:

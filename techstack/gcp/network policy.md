@@ -1,12 +1,12 @@
 #gcp #cloud #security
 
-- [[pod]]-level [[firewall]] restricting access to other [[pod]]s and [[service]]s
-- limit the [[attack surface]] of your [[cluster]]
+- [pod](/techstack/gcp/pod.md)-level [firewall](/firewall) restricting access to other [pod](/techstack/gcp/pod.md)s and [service](/techstack/gcp/service.md)s
+- limit the [attack surface](/attack%20surface) of your [cluster](/cluster)
 - lock down traffic to allow only legitmate network pathways
 
 - network policies must be enabled:
-	- requires at least 2 [[node]]s of [[n1-standard-1]] or higher
-	- requires [[node]]s to be recreated
+	- requires at least 2 [Node](/techstack/gcp/Node.md)s of [n1-standard-1](/n1-standard-1) or higher
+	- requires [Node](/techstack/gcp/Node.md)s to be recreated
 
 #### Commands
 Enabling a network policy

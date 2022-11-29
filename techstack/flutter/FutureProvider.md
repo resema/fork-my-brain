@@ -92,6 +92,6 @@ class MyHomePage extends StatelessWidget {
 
 ```
 
-In the example is a ugly part, with this approach two [[Provider]]s are needed. One nested inside the other. That this is not getting out of hand uses [[techstack/flutter/MultiProvider|MultiProvider]].
+In the example is a ugly part, with this approach two [provider](/techstack/flutter/provider.md)s are needed. One nested inside the other. That this is not getting out of hand uses [MultiProvider](/techstack/flutter/MultiProvider.md).
 
-[[techstack/flutter/StreamProvider|StreamProviders]] work so similarly to `FutureProvider`, but provides streamed values.
+[StreamProviders](/techstack/flutter/StreamProvider.md) work so similarly to `FutureProvider`, but provides streamed values.

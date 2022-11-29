@@ -1,10 +1,10 @@
 #flutter #async #observer #concurrency 
 
 There are three pieces of the observer pattern:
-- [[Sink]]s
-- [[Stream]]
-- [[techstack/flutter/Subscriber|Subscriber]]
+- [Sink](/techstack/flutter/Sink.md)s
+- [Stream](/techstack/flutter/Stream.md)
+- [Subscriber](/techstack/flutter/Subscriber)
 
-[[Stream]]s are properties on the [[Sink]]. When the sink needs to notify listeners of new events, it does so via [[Stream]]s.
+[Stream](/techstack/flutter/Stream.md)s are properties on the [Sink](/techstack/flutter/Sink.md). When the sink needs to notify listeners of new events, it does so via [Stream](/techstack/flutter/Stream.md)s.
 
-[[techstack/flutter/Subscriber|Subscriber]]s are the external classes or objects that are waiting to be notified. This is done by listening to streams.
+[Subscriber](/techstack/flutter/Subscriber)s are the external classes or objects that are waiting to be notified. This is done by listening to streams.

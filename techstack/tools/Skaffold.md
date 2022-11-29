@@ -1,6 +1,6 @@
 #gcloud #orchestrating  #k8s #kubernetes  #CI/CD
 
-Skaffold is a command-line tool that enables continuous development for [[Kubernetes]]-native applications. You can use Skaffold to configure a local development workspace to use with Google Cloud Deploy continuous delivery pipelines.
+Skaffold is a command-line tool that enables continuous development for [Kubernetes](/Kubernetes)-native applications. You can use Skaffold to configure a local development workspace to use with Google Cloud Deploy continuous delivery pipelines.
 
 Skaffold includes the following features:
 

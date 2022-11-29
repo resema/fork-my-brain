@@ -2,13 +2,13 @@
 
 **RBAC** := role based access control
 
-Extends [[Cloud IAM]] and consists of three concepts
+Extends [Cloud IAM](/techstack/gcp/Cloud%20IAM.md) and consists of three concepts
 1. Who -> subjects
 2. Which -> resources
 3. What -> verbs
 
-All three can be connected to [[RoleBinding]]
-Resources and Verbs can be combined to [[Role]]
+All three can be connected to [RoleBinding](/RoleBinding)
+Resources and Verbs can be combined to [Role](/Role)
 ```plantuml
 @startuml
 object "RoleBinding/ClusterRoleBinding" as rolebin
@@ -64,7 +64,7 @@ rules:
 	  verbs: ["get", "list", "watch"]
 ```
 
-### Attaching roles to [[RoleBinding]]
+### Attaching roles to [RoleBinding](/RoleBinding)
 ```yaml
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
@@ -81,7 +81,7 @@ roleRef:
 	apiGroup: rbac.authorization.k8s.io
 ```
 
-### Attaching roles to [[ClusterRoleBinding]]
+### Attaching roles to [ClusterRoleBinding](/ClusterRoleBinding)
 ```yaml
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding

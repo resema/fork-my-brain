@@ -1,8 +1,8 @@
 #cloud #network #http 
 
 CORS := Cross-Origin Resource Sharing
-- for security reasons, script by default only reload resources that are hosted by the same domain os the original website [[request]]
-- additional [[HTTP]] headers can be used to reload resources from certain other domains
+- for security reasons, script by default only reload resources that are hosted by the same domain os the original website [request](/request)
+- additional [HTTP](/techstack/network/HTTP.md) headers can be used to reload resources from certain other domains
 ```http
 HTTP/1.1 200 OK
 ...

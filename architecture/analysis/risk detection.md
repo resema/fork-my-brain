@@ -2,7 +2,7 @@
 
 > a combination of the consequences that would follow from the occurence of an unwanted event and the likelihood of the occurence of the event
 
-Vulnearibilities are listed here and rated with [[CVSS]]: 
+Vulnearibilities are listed here and rated with [CVSS](/architecture/patterns/security/CVSS.md): 
 - https://cve.mitre.org/ or newly https://cve.org
 - https://nvd.nist.gov/
 
@@ -29,8 +29,8 @@ Vulnearibilities are listed here and rated with [[CVSS]]:
 - technical factors
 	- disclosure of sensitive data
 	- data corruption
-	- service [[availability]]
-	- [[traceability]] of the attackers
+	- service [availability](/availability)
+	- [traceability](/traceability) of the attackers
 - business factors
 	- financial loss/damage
 	- damage to reputation
@@ -38,9 +38,9 @@ Vulnearibilities are listed here and rated with [[CVSS]]:
 	- data breach
 
 #### Step 4: Risk Weighting
-![](risk-weighting.png)
-![](risk-weighting2.png)
-![](risk-weighting3.png)
+![](/_diag/risk-weighting.png)
+![](/_diag/risk-weighting2.png)
+![](/_diag/risk-weighting3.png)
 
 #### Step 5: Prioritze Risks
 - outcomes

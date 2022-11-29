@@ -9,6 +9,6 @@ VPC networks are global
 - if your users are close together, choose the regin closest to them plus a backup region
 - a project can have mulitple networks
 
-Machines within the same VPC can communicate with each other through the internal [[IP address]]
+Machines within the same VPC can communicate with each other through the internal [IP address](/IP%20address)
 
-[[Shared VPC]] is created in one project, but can be shared and used by other projects
+[Shared VPC](/techstack/gcp/Shared%20VPC.md) is created in one project, but can be shared and used by other projects

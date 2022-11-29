@@ -24,6 +24,6 @@ kubectl edit deployment <NAME>
 ```
 
 #### Notes
-- [[jq]] cmd line tool
+- [jq](/techstack/devops/jq.md) cmd line tool
 - `curl -ks https://`kubectl get svc <SERVICE_NAME> -o=jsonpath="{.status.loadBalancer.ingress[0].ip}"``
-- [[Helm]] is a tool that streamlines Kubernetes application installation and management. You can think of it like `apt`, `yum`, or `homebrew` for Kubernetes. Helm Charts are maintained by the Kubernetes community.
+- [Helm](/techstack/k8s/Helm.md) is a tool that streamlines Kubernetes application installation and management. You can think of it like `apt`, `yum`, or `homebrew` for Kubernetes. Helm Charts are maintained by the Kubernetes community.

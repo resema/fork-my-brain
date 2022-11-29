@@ -1,6 +1,6 @@
 #k8s #kubernetes 
 
-ConfigMaps promote [[Twelve-Factor]]-ness
+ConfigMaps promote [Twelve-Factor](/Twelve-Factor)-ness
 
 ```sh
 $ kubectl create configmap [NAME] [DATA]
@@ -17,10 +17,10 @@ kubectl create configmap demo --from-file=[PATH/FILE]
 
 Or by using a manifest!
 
-[[pod]]s using the ConfigMap as
-- [[environment variable]]
-- [[pod]] commands
-- [[volume]]
+[pod](/techstack/gcp/pod.md)s using the ConfigMap as
+- [environment variable](/environment%20variable)
+- [pod](/techstack/gcp/pod.md) commands
+- [volume](/techstack/k8s/volume.md)
 ```yaml
 [...]
 kind: Pod

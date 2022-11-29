@@ -3,7 +3,7 @@
 ...(List<String>)
 ```
 
-The spread operator in [[Dart]] unfolds a list into separate elements.
+The spread operator in [Dart](/techstack/flutter/Dart.md) unfolds a list into separate elements.
 
 For example:
 ``` dart

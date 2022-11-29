@@ -4,7 +4,7 @@ The `import` statement tells the compiler where to look on disk to find the pack
 
 - Packages are found on disk based on their relative path to the directories referenced by the Go environment
 - Packages in the **standard library** are found under where Go is installed
-- Packages that are created by you live inside the [[GOPATH]]
+- Packages that are created by you live inside the [GOPATH](/techstack/go/GOPATH.md)
 
 The compiler will stop searching once it finds a packages that satisfies the import statement.
 
@@ -18,7 +18,7 @@ import "github.com/spf13/viper"
 ```
 
 - `go build` search the `GOPATH` for this package location on disk
-- `go get` can be used to fetch the package from [[revision control system|RCS]] and places the code inside the `GOPATH` at the location that matches the [[URL]]
+- `go get` can be used to fetch the package from [RCS](/revision%20control%20system) and places the code inside the `GOPATH` at the location that matches the [URL](/techstack/network/URL.md)
 
 #### named imports
 - performed by giving one of the packages a new name to the left of the `import` statement

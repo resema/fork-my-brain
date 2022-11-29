@@ -4,5 +4,5 @@
 	- from 10 to 200 Gbps
 - Partner interconnect provides a connection through a service proveder
 	- less bandwith from 50 Mpbs
-- allows access to [[VPC]] resources using internal [[IP address]] space
-- private Google Access allows on-premises hosts to access Google services using private [[IP]]s
+- allows access to [VPC](/techstack/gcp/VPC.md) resources using internal [IP address](/IP%20address) space
+- private Google Access allows on-premises hosts to access Google services using private [IP](/IP)s

@@ -6,13 +6,13 @@
 	- [architecture characteristics](https://fundamentalsofsoftwarearchitecture.com/images/book/fosa_0104.png) 
 		- define the success criteria of a system. 
 		- refers to the "-ilities" that the system must support
-	- [architecture decisions]()
+	- [architecture decisions](/)
 		- define the rules how a system should be constructed
 	- [design principles](https://fundamentalsofsoftwarearchitecture.com/images/book/fosa_0106.png)
 		- are guidelines for constructing systems
 	- [structure](https://fundamentalsofsoftwarearchitecture.com/images/book/fosa_0103.png)
-		- refers to the type of architecture style (such as [[microservice]]s, [[layer]]ed or [[microkernel]])
+		- refers to the type of architecture style (such as [microservice](/microservice)s, [layer](/layer)ed or [microkernel](/microkernel))
 
 
 ### Awesome resources
-- can be found by using [[awesome resources on every technology]]
+- can be found by using [awesome resources on every technology](/architecture/techradar/awesome%20resources%20on%20every%20technology.md)

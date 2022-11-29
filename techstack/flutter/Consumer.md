@@ -2,9 +2,9 @@
 
 Consumer exposes instances of provided models, so one can display data and call methods on provided model.
 
-The Consumer widget doesn't do any fancy work. It just calls [[Provider]].of in a new [[widget]], and delegates its build implementation to builder.
+The Consumer widget doesn't do any fancy work. It just calls [provider](/techstack/flutter/provider.md).of in a new [widget](/techstack/flutter/widget.md), and delegates its build implementation to builder.
 
-### Example from [[ChangeNotifierProvider]]
+### Example from [ChangeNotifierProvider](/techstack/flutter/ChangeNotifierProvider.md)
 ```dart
 class MyHomePage extends StatelessWidget {
   const MyHomePage({Key key}) : super(key: key);
@@ -59,4 +59,4 @@ class MyHomePage extends StatelessWidget {
   }
 }
 ```
-[[techstack/flutter/Selector|Selector]] is similar to Consumer, but provides some fine control over when a [[widget]]s `build` method is called.
+[Selector](/techstack/flutter/Selector.md) is similar to Consumer, but provides some fine control over when a [widget](/techstack/flutter/widget.md)s `build` method is called.

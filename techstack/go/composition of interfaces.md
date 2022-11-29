@@ -1,6 +1,6 @@
 #go #interface #composition
 
-Composition of [[interface]]s can be found throughout the [[standard library]].
+Composition of [interface](/techstack/go/interface.md)s can be found throughout the [standard library](/standard%20library).
 ``` go
 type ReadWriter interface {
 	Reader

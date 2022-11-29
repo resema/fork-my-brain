@@ -1,6 +1,6 @@
 #go #http #network 
 
-HandleFunc registers the [[Handler]] function for the given pattern in the DefaultServeMux. The documentation for [[ServeMux]] explains how patterns are matched.
+HandleFunc registers the [Handler](/Handler) function for the given pattern in the DefaultServeMux. The documentation for [ServeMux](/ServeMux) explains how patterns are matched.
 
 ```go
 // HandleFunc registers the handler function for the given pattern
@@ -14,8 +14,8 @@ func HandleFunc(
 }
 ```
 
-- the [[ResponseWriter]] value `w` is used to control the response information being written back to the client that made the [[request]], such as the [[body]] of the [[response]] or the [[status code]]
-- the [[Request]] value `r` is used to get information about the request that came into the server, such as the body being sent in the case of a [[POST]] request or information about the client that made the [[request]]
+- the [ResponseWriter](/techstack/go/ResponseWriter.md) value `w` is used to control the response information being written back to the client that made the [request](/request), such as the [body](/body) of the [response](/response) or the [status code](/techstack/network/status%20code.md)
+- the [Request](/Request) value `r` is used to get information about the request that came into the server, such as the body being sent in the case of a [POST](/POST) request or information about the client that made the [request](/request)
 
 #### Example
 ```go

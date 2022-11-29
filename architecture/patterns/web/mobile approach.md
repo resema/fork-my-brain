@@ -7,7 +7,7 @@
 - cross-compiler approach
 	- midway
 	- uses only one programming language
-	- no [[HTML]] or [[CSS]] necessary
+	- no [HTML](/HTML) or [CSS](/CSS) necessary
 	- cross-platform compiler
 	  ==> can be used as a native app
 - native app

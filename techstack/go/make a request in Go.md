@@ -1,6 +1,6 @@
 #go #network #http 
 
-In contrast to `http.Get` , the `http.Request` function provides you with greater control over the [[request]], other than just the [[HTTP]] method and the [[URL]] being requested
+In contrast to `http.Get` , the `http.Request` function provides you with greater control over the [request](/request), other than just the [HTTP](/techstack/network/HTTP.md) method and the [URL](/techstack/network/URL.md) being requested
 
 ```go
 http.Get

@@ -1,17 +1,17 @@
 #gcp #kubernetes #cloud #k8s 
 
-- [[volume]]
-- [[persistent volume]]
-	- [[regional persistent disks]]
+- [volume](/techstack/k8s/volume.md)
+- [persistent volume](/techstack/k8s/persistent%20volume.md)
+	- [regional persistent disks](/techstack/k8s/regional%20persistent%20disks.md)
 		
 ### Ephemeral volume types
-- shares [[pod]]'s lifecycle
-- [[ConfigMap]] can be reference in a volume
-- [[Secret]] stores sensitive info, such as passwords
+- shares [pod](/techstack/gcp/pod.md)'s lifecycle
+- [ConfigMap](/techstack/k8s/ConfigMap.md) can be reference in a volume
+- [Secret](/techstack/k8s/Secret.md) stores sensitive info, such as passwords
 	- never written to non volatile storage
-- [[downwardAPI]] makes data about [[pod]]s data available to [[techstack/gcp/container|container]]s
+- [downwardAPI](/downwardAPI) makes data about [pod](/techstack/gcp/pod.md)s data available to [container](/techstack/gcp/container.md)s
 
-All of those four a created by [[emtpyDir]] volumes, which is first created when a [[pod]] is assigned to a [[node]].
+All of those four a created by [emtpyDir](/emtpyDir) volumes, which is first created when a [pod](/techstack/gcp/pod.md) is assigned to a [Node](/techstack/gcp/Node.md).
 
 ### Different Access Modes
 - `ReadWriteOnce`
@@ -19,4 +19,4 @@ All of those four a created by [[emtpyDir]] volumes, which is first created when
 - `ReadWriteMany`
 
 ### Attention
-The [[GKE]] storage is a separate thing from [[GCP]] storages, such as buckets.
+The [GKE](/techstack/k8s/GKE.md) storage is a separate thing from [GCP](/GCP) storages, such as buckets.

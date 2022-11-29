@@ -1,6 +1,6 @@
 #go #interface 
 
-The dynamic type of an interface type is the current assigned type to the interface type. It is related to the [[static type]]
+The dynamic type of an interface type is the current assigned type to the interface type. It is related to the [static type](/techstack/go/static%20type.md)
 
 ```go
 type I interface {
@@ -15,7 +15,7 @@ func main() {
 }
 ```
 
-- the [[package]] [[reflect]] can be used to achieve the dynamic type of [[interface]] type value
+- the [package](/package) [reflect](/reflect) can be used to achieve the dynamic type of [interface](/techstack/go/interface.md) type value
   ```go
   reflect.TypeOf(i).PkgPath() // `main`
   reflect.TypeOf(i).Name()    // `T`

@@ -3,7 +3,7 @@
 #### Initialize
 -   `git submodule update --init --recursive`
 
-#### [](https://github.com/resema/cheatsheets/blob/main/git.md#update-)Update
+#### [](/https://github.com/resema/cheatsheets/blob/main/git.md#update-)Update
 1.  `cd repo/submodule`
 2.  `git fetch`
 3.  `git log --online origin/main`

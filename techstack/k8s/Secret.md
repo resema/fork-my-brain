@@ -4,8 +4,8 @@ It's not really a secret!
 
 ### Types of secrets
 - generic
-- [[TLS]]
-	- encoded in [[PEM]] format
+- [TLS](/techstack/security/TLS.md)
+	- encoded in [PEM](/PEM) format
 - Docker registry
 
 ### Example
@@ -21,7 +21,7 @@ data:
 ```
 
 ### Creating a secret
-this is similar to the creation of [[ConfigMap]], but not shown in GCP Console.
+this is similar to the creation of [ConfigMap](/techstack/k8s/ConfigMap.md), but not shown in GCP Console.
 ```sh
 kubectl create secret generic [...]
 ```
@@ -29,4 +29,4 @@ kubectl create secret generic [...]
 - using files
 - using naming keys
 
-[[pod]] use secrets similar to [[ConfigMap]]
+[pod](/techstack/gcp/pod.md) use secrets similar to [ConfigMap](/techstack/k8s/ConfigMap.md)

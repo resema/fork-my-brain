@@ -1,16 +1,16 @@
 #flutter #buildcontext
 
-BuildContext is an object that holds reference to the [[widget]]s own place in the [[widget tree]].
+BuildContext is an object that holds reference to the [widget](/techstack/flutter/widget.md)s own place in the [widget tree](/widget%20tree).
 
-It can then look up the tree to its ancestors, which is what makes [[InheritedWidgets]] possible, among other things.
+It can then look up the tree to its ancestors, which is what makes [InheritedWidgets](/InheritedWidgets) possible, among other things.
 
-[[extension]] replaces some functions of BuildContext:
+[extension](/techstack/flutter/extension.md) replaces some functions of BuildContext:
 
 `BuildContext.read<Person>()` replaces `Provider.of<Person>(context, listen: false)`
 
 `BuildContext.watch<Person>()` replaces `Provider.of<Person>(context)`
 
-`BuildContext.select<Person>` completely removes the need to use a [[Selector]].
+`BuildContext.select<Person>` completely removes the need to use a [Selector](/techstack/flutter/Selector.md).
 
 #### Deprecated
 ```dart

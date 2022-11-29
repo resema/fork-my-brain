@@ -12,15 +12,15 @@ Three different types of IAM roles
 			- manage roles and permissions
 			- setup project billing
 			- all permissions of an editor role
-2. predefined [[Cloud IAM]] roles
-	- provide granular acces to [[kubernetes]] resources
-		- [[GKE]] Viewer
-			- read-only permissions to [[cluster]] and kubernetes resources
-		- [[GKE]] Developer
+2. predefined [Cloud IAM](/techstack/gcp/Cloud%20IAM.md) roles
+	- provide granular acces to [kubernetes](/kubernetes) resources
+		- [GKE](/techstack/k8s/GKE.md) Viewer
+			- read-only permissions to [cluster](/cluster) and kubernetes resources
+		- [GKE](/techstack/k8s/GKE.md) Developer
 			- full access to kubernetes resources within clusters
-		- [[GKE]] Admin
+		- [GKE](/techstack/k8s/GKE.md) Admin
 			- full access to clusters and their kubernetes resources
-		- [[GKE]] Cluster Admin
+		- [GKE](/techstack/k8s/GKE.md) Cluster Admin
 			- create/delete/update/view clusters
 			- **no** access to kubernetes resources
 3. custom roles

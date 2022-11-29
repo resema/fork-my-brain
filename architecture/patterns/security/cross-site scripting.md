@@ -1,14 +1,14 @@
 #architecture #security #web #xss 
 
 - embedding malicious script code into the web application
-	- [[pishing]], user [[session hijacking]], webside defacement, ...
+	- [pishing](/pishing), user [session hijacking](/session%20hijacking), webside defacement, ...
 
 #### Types
 - reflected XSS
-  ![xss](reflected-xss.png)
+  ![xss](/_diag/reflected-xss.png)
 
 - persistent XSS
-![xss](persistent-xss.png)
+![xss](/_diag/persistent-xss.png)
 
-- local / [[DOM]] based XSS
-  ![xss](dom-based-xss.png)
+- local / [DOM](/DOM) based XSS
+  ![xss](/_diag/dom-based-xss.png)

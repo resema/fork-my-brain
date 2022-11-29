@@ -1,8 +1,8 @@
 #store
 
-FHIR is standard for health care data exchange. A [Golang package](https://pkg.go.dev/google.golang.org/api/healthcare/v1#pkg-overview) supports using [[Google FHIR Store]].
+FHIR is standard for health care data exchange. A [Golang package](/https://pkg.go.dev/google.golang.org/api/healthcare/v1#pkg-overview) supports using [Google FHIR Store](/Google%20FHIR%20Store).
 
-FHIR is an open medical format used to store and exchange medical data between different [[PMS]]/[[PACS]] systems.
+FHIR is an open medical format used to store and exchange medical data between different [PMS](/PMS)/[PACS](/PACS) systems.
 
 FHIR := Fast Healthcare Interoperability Resources
 

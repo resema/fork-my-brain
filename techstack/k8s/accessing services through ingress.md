@@ -1,11 +1,11 @@
 #gcp #cloud #k8s #kubernetes #ingress #cheat #curl
 
-Since [[Ingress]]es use virtual hosting to figure out where to forward the [[request]], you won't get the desired result by simply sending an [[HTTP]] request to the ingress' [[IP address]] and [[port]].
+Since [Ingress](/techstack/k8s/Ingress.md)es use virtual hosting to figure out where to forward the [request](/request), you won't get the desired result by simply sending an [HTTP](/techstack/network/HTTP.md) request to the ingress' [IP address](/IP%20address) and [port](/port).
 You need to make sure that the Host header in the HTTP request matches one of the rules in the Ingress object.
 
-To achieve this, this requires resolving the host to the Ingress IP, which is normally done by a [[DNS]] server.
+To achieve this, this requires resolving the host to the Ingress IP, which is normally done by a [DNS](/DNS) server.
 
-But locally, you can use [[curl]] for it. The following call will add the hostname to the DNS cache.
+But locally, you can use [curl](/curl) for it. The following call will add the hostname to the DNS cache.
 ```bash
 $ curl --resolve \
   <HOST_NAME>:<PORT>:<INGRESS_IP_ADDRESS> \

@@ -7,4 +7,4 @@ Is a lightweight protocol for fast, binary communication between services or dev
 - gRPC is support by Google services
 	- global load balancer (HTTP/2)
 	- cloud endpoints
-	- can expose gRPC services using an [[Envoy]] Proxy in [[GKE]]
+	- can expose gRPC services using an [Envoy](/Envoy) Proxy in [GKE](/techstack/k8s/GKE.md)

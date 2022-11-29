@@ -1,10 +1,10 @@
 #flutter #provider #provider #stream 
 
-`StreamProvider` provides streamed values. Like [[FutureProvider]], provided values will be auto-magically passed the new values of the provided value as they come in.
+`StreamProvider` provides streamed values. Like [FutureProvider](/techstack/flutter/FutureProvider.md), provided values will be auto-magically passed the new values of the provided value as they come in.
 
 The **major difference** is that the values will trigger a **re-build as many times as it needs to**.
 
-It uses a [[techstack/flutter/Stream|Stream]] as indicated in the name.
+It uses a [Stream](/techstack/flutter/Stream.md) as indicated in the name.
 ```dart
 import 'dart:collection';
 import 'package:flutter/foundation.dart';

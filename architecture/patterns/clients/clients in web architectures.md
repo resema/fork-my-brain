@@ -1,10 +1,10 @@
 #architecture #pattern #web
 
-- [[thin client]]
+- [thin client](/architecture/patterns/clients/thin%20client.md)
 	- lean web applications (web browser)
-- [[smart client|rich client]] aka [[smart client]]
-	- thin client with improved [[GUI]] interface and interaction
-- [[fat client]] aka. [[fat client|thick client]]
+- [rich client](/architecture/patterns/clients/smart%20client.md) aka [smart client](/architecture/patterns/clients/smart%20client.md)
+	- thin client with improved [GUI](/GUI) interface and interaction
+- [fat client](/architecture/patterns/clients/fat%20client.md) aka. [thick client](/architecture/patterns/clients/fat%20client.md)
 	- desktop application installed on the application computer (data exchange e.g. via Web Services)
 	- f.ex. mobile app
 - rich internet application (RIA)

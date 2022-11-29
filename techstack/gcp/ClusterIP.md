@@ -1,6 +1,6 @@
 #gcp #cloud #ingress
 
-A ClusterIP service has a static [[IP address]]. This or [[NodePort]] are needed for [[Ingress]]es. A [[service]] with type ClusterIP is only accessible from within the [[cluster]].
+A ClusterIP service has a static [IP address](/IP%20address). This or [nodePort](/techstack/gcp/nodePort.md) are needed for [Ingress](/techstack/k8s/Ingress.md)es. A [service](/techstack/gcp/service.md) with type ClusterIP is only accessible from within the [cluster](/cluster).
 
 ```yaml
 apiVersion: v1
@@ -18,4 +18,4 @@ spec:
 ```
 
 How does it work?
-- defines a static [[IP address]] for the [[service]] `my-service` with a [[port]] `3306`. The backend [[pod]]s have the [[targetPort]] 6000`.`
+- defines a static [IP address](/IP%20address) for the [service](/techstack/gcp/service.md) `my-service` with a [port](/port) `3306`. The backend [pod](/techstack/gcp/pod.md)s have the [targetPort](/targetPort) 6000`.`

@@ -1,14 +1,14 @@
 #architecture #pattern #cache #storage #web
 
-[[HTML]] Meta Tags and [[HTTP]] Headers
+[HTML](/HTML) Meta Tags and [HTTP](/techstack/network/HTTP.md) Headers
 
 - caching with HTML meta tags
 	- easy to use but mostly **ineffective**
 
-- caching with [[HTTP]] header
+- caching with [HTTP](/techstack/network/HTTP.md) header
 	- cache-control
 	- expires
 	- etag
 	- last-modified
-	  ![overview](web-caching.png)
+	  ![overview](/_diag/web-caching.png)
 

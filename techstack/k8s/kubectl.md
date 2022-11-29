@@ -2,9 +2,9 @@
 
 `kubectl`’s options and flags, such as `label-selector`, `go-templates`, `jsonpath`, etc., can improve query efficiency by filtering and selection.
 
-But `kubectl` provides a method exporting the resource configuration ([[YAML]]) directly into [[JSON]], `-o json`
+But `kubectl` provides a method exporting the resource configuration ([YAML](/YAML)) directly into [JSON](/JSON), `-o json`
 
-This can be joined with tools like [[jq]]
+This can be joined with tools like [jq](/techstack/devops/jq.md)
 
 #### Examples
 ```bash

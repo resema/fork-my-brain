@@ -5,5 +5,5 @@
 - typical features/functions:
 	- database access
 	- template systems for controlling the display
-	- support of the [[MVC]] pattern
-	- [[Skaffold]] for the input/administration of database entries
+	- support of the [MVC](/MVC) pattern
+	- [Skaffold](/techstack/tools/Skaffold.md) for the input/administration of database entries

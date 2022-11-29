@@ -1,4 +1,4 @@
-The static type of an interface type is the base type to the interface type. It is related to the [[dynamic type]]
+The static type of an interface type is the base type to the interface type. It is related to the [dynamic type](/techstack/go/dynamic%20type.md)
 
 ```go
 type I interface {

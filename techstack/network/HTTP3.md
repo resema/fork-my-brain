@@ -1,6 +1,6 @@
 #cloud #network #http/3 #protocol 
 
-- [[QUIC]] over [[UDP]]-based network protocol
+- [QUIC](/QUIC) over [UDP](/UDP)-based network protocol
 	- is actually not reliable (frames can be lost)
 - still a draft
 - gradually implemented by all browsers

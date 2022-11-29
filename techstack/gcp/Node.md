@@ -1,3 +1,3 @@
 #gcp  #cloud 
 
-Nodes get [[pod]] [[IP address]]es from [[IP address ranges]] assigned to your [[VPC]] (Virtual Private Cloud).
+Nodes get [pod](/techstack/gcp/pod.md) [IP address](/IP%20address)es from [IP address ranges](/techstack/network/IP%20address%20ranges.md) assigned to your [VPC](/techstack/gcp/VPC.md) (Virtual Private Cloud).

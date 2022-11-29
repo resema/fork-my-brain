@@ -6,7 +6,7 @@ type T struct {
 }
 ```
 
-- without tags field names could conflict with Go's rules about exported field names ([[naming convention]])
+- without tags field names could conflict with Go's rules about exported field names ([naming convention](/techstack/go/naming%20convention.md))
 
 #### Example
 - `encoding/json` recognizes a key of `json` and a vaue that controls the output
@@ -46,4 +46,4 @@ func main() {
 }
 ```
 
-(Example used [[declaration and assignment]] abbreviation)
+(Example used [declaration and assignment](/techstack/go/declaration%20and%20assignment.md) abbreviation)

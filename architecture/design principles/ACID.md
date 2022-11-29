@@ -14,4 +14,4 @@ offers transaction possiblity!
 
 
 - Availability?
-  ==> [[BASE]]
+  ==> [BASE](/architecture/design%20principles/BASE.md)

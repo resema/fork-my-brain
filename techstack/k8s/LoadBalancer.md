@@ -1,6 +1,6 @@
 #gcp #cloud 
 
-LoadBalancer service can be used to expose a [[service]] to resources outside the [[cluster]].
+LoadBalancer service can be used to expose a [service](/techstack/gcp/service.md) to resources outside the [cluster](/cluster).
 
 ```yaml
 [...]
@@ -14,11 +14,11 @@ spec:
 			  targetPort: 9376
 ```
 
-- builds upon [[NodePort]] and therefore also [[ClusterIP]]
+- builds upon [nodePort](/techstack/gcp/nodePort.md) and therefore also [ClusterIP](/techstack/gcp/ClusterIP.md)
 
 #### Container-Native load balancing
-- new feature in [[GKE]]
-	- traffic is directed to the [[pod]]s directly instead of to the [[node]]s
-	- requires [[GKE]] to operate in [[VPC]] native mode
-		- uses a data model called [[Network Endpoint Groups|NEG]]
-			- every connection is made between the [[LoadBalancer]] and the [[pod]]
+- new feature in [GKE](/techstack/k8s/GKE.md)
+	- traffic is directed to the [pod](/techstack/gcp/pod.md)s directly instead of to the [Node](/techstack/gcp/Node.md)s
+	- requires [GKE](/techstack/k8s/GKE.md) to operate in [VPC](/techstack/gcp/VPC.md) native mode
+		- uses a data model called [NEG](/Network%20Endpoint%20Groups)
+			- every connection is made between the [LoadBalancer](/techstack/k8s/LoadBalancer.md) and the [pod](/techstack/gcp/pod.md)

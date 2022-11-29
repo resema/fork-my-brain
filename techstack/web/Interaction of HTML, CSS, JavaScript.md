@@ -1,23 +1,23 @@
 #web #cloud #UI 
 
-#### [[HTML]]
+#### [HTML](/HTML)
 - structuring of the contents
 - code on demand defintions (reloading JavaScript)
 
-#### [[CSS]]
+#### [CSS](/CSS)
 - presentation
 - formatting rules
 
-#### [[JavaScript]]
-- separate [[CSS]] and JS
+#### [JavaScript](/JavaScript)
+- separate [CSS](/CSS) and JS
 - application of the formatting rules
-- general program logic, e.g. calculations, access to the web [[server]], ...
+- general program logic, e.g. calculations, access to the web [server](/server), ...
 
 #### Advantages
 - content and presentation can be quickly changed independently of each other
 - presentation created with little effort
 
-- [[MVC]] principle
+- [MVC](/MVC) principle
 	- presentation (CSS)
 	- behavior (JS)
 - Basic rules

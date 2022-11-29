@@ -1,13 +1,13 @@
 #flutter #notifier #changenotifier #notification
 
-Is a class that can be [[extended]] or [[mix-in]]-ed that provides a change [[notification]] [[API]] using [[VoidCallback]] for notifivations.
+Is a class that can be [extended](/extended) or [mix-in](/mix-in)-ed that provides a change [notification](/notification) [API](/techstack/google/API.md) using [VoidCallback](/VoidCallback) for notifivations.
 
 #### Practical terms
 Other objects can _listen_ to a `ChangeNotifier` object. And, when the change notifier gets updated values, it can call a method called `notifyListeners()`, and then any of it's listeners will respond with an action.
 
-The example shows a simple use case, but it presents also a problem. If one wants to use it in multiple [[widget]]s in different branches in your [[widget tree]], one would have to pass an instance of `ChangeNotifier` all around the [[widget tree]].
+The example shows a simple use case, but it presents also a problem. If one wants to use it in multiple [widget](/techstack/flutter/widget.md)s in different branches in your [widget tree](/widget%20tree), one would have to pass an instance of `ChangeNotifier` all around the [widget tree](/widget%20tree).
 
-This is the exact problem that [[Provider]] solves! And the combination of it is the [[ChangeNotifierProvider]].
+This is the exact problem that [provider](/techstack/flutter/provider.md) solves! And the combination of it is the [ChangeNotifierProvider](/techstack/flutter/ChangeNotifierProvider.md).
 
 #### Example
 ```dart

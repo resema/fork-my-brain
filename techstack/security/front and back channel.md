@@ -6,8 +6,8 @@
 
 ### Back channel
 - handled between authenticated parties
-	- a [[request]] from an [[HTTP]] client to an [[HTTP]] server
-- with [[HTTP2]] and encrypted
+	- a [request](/request) from an [HTTP](/techstack/network/HTTP.md) client to an [HTTP](/techstack/network/HTTP.md) server
+- with [HTTP2](/techstack/network/HTTP2.md) and encrypted
 
 ### Implicit channel
 - pass token in the front channelA
